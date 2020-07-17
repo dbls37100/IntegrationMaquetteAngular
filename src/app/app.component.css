@@ -1,0 +1,301 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.General-Display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Menu_Side-left {
+  padding-top: 5%;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 3%;
+  border-right: gray 1px solid;
+  padding-right: 60px;
+}
+
+.Ressources-item {
+  width: 20px;
+  height: 20px;
+}
+
+.title_Site {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.Item-Menu :hover {
+  color: black;
+}
+
+.Item-Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.textsize {
+  width: 50%;
+  color: gray;
+}
+
+.img-logo-menu {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.HomePage-style {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.generalhomePagedisplay {
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ng-tns-c33-0 {
+  text-align: end;
+  width: 300px;
+  padding-bottom: 8%;
+}
+
+.search-image {
+  padding-bottom: 20px;
+}
+
+.menu-right {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end ;
+  width: 50%;
+}
+
+.backpack-style {
+  width: 75px;
+  height: 75px;
+}
+
+.container-backpack {
+  padding: 20px;
+  background-color: #fdf4f2;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 30px;
+}
+
+.GetPro-style {
+  color: white;
+  padding: 20px 50px 10px 50px;
+  background-color: #5d53be;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card3-img {
+    max-width: 100% ;
+    height: 250px;
+}
+
+.promotion-style {
+  text-align: center;
+  color: gray;
+  margin-top: 10%;
+}
+
+.example-form {
+  width: 50%;
+}
+
+.notification-img {
+  width: 30px;
+  height: 25px;
+  margin: 3% 2% 0 2%;
+}
+
+.banner-img {
+  width: 30px;
+  height: 25px;
+  margin: 3% 5% 0 5%;
+}
+
+.design-resouces {
+  font-size: 50px;
+}
+
+.logo-Site {
+  width: 50%;
+}
+
+.New_Post {
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  border: gray 2px solid;
+  height: 35px;
+  border-radius: 30px;
+  margin: 0 20% 0 5%;
+}
+
+.New_Post :hover {
+  color: gray;
+}
+
+.design-resources-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.This-week_Style {
+  padding: 20px 40px 10px 40px;
+  background-color: #fdf4f2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 10%;
+}
+
+.text-Design {
+  width: 40%;
+}
+
+.arrow-size {
+  width: 20px;
+  height: 20px;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
+.return-arrow {
+  width: 25px;
+  height: 25px;
+  margin-right: 2%;
+}
+
+.next-arrow {
+  width: 25px;
+  height: 25px;
+  margin-left: 2%;
+}
+
+.arrow-next-return {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 12%;
+}
+
+.card {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.banner-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 2%;
+  height: 500px;
+  background-color: #fdf4f2;
+  border-radius: 30px;
+  color: #7b5d5e;
+  margin: 5%;
+  margin-left: 0;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 2%;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0.5em 0.5em 0.5em #e7ecee;
+  color: #7b5d5e;
+  margin: 5%;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 2%;
+  height: 500px;
+  background-color: #7857BF;
+  border-radius: 30px;
+  color: white;
+  margin: 5%;
+  margin-right: 0;
+}
+
+.card-arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.card-arrow-display {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Typography {
+  color: red;
+  text-align: start;
+  width: 80%;
+}
+
+.Typography2 {
+  color: white;
+  text-align: start;
+  width: 80%;
+}
+
+.Illustrations {
+  color: #5d53bc;
+  text-align: start;
+  width: 80%;
+}
+
+.text-bottom-card3 {
+    width: 45%;
+    text-align: start;
+}
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+  }
+
+  @media screen and (max-width: 575px) {
+
+  }
